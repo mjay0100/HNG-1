@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+  margin: 1rem auto;
+  width: 60%;
+}
+.main-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+img {
+  width: 50%;
+  border-radius: 1rem;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  padding: 0.75rem;
+}
+a {
+  text-decoration: none;
+}
